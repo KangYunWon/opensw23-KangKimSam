@@ -1,4 +1,4 @@
-# opensw23-team_name
+# opensw23-강김삼
 
 # Team Introduction
   강윤원 202211249 리더
