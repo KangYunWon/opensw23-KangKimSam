@@ -35,4 +35,6 @@
     
 - repository를 복사하면 cmd의 default path 밑에 Gender-and-Age-Detection 파일이 생성됨.
   이후 해당 파일로 위치를 이동해주면 됨.
+  
+  
 # Presentation
