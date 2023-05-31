@@ -9,7 +9,9 @@
   
   김민형 202211270 서포터
 # Topic Introduction
-  주제 : 성별 및 연령 감지
+  - 레포지토리 주소 : https://github.com/smahesh29/Gender-and-Age-Detection.git
+
+  - 주제 : 성별 및 연령 감지
   
   성별은 male 혹은 female 둘중 하나로 감지한다.
   
