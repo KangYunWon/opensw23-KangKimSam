@@ -18,14 +18,13 @@
 - 모든 구동은 cmd창에서 진행함.
 
 - 구동 환경
-  -os:window 11
-  -파이썬 3.9.13
+  - os : window 11
+  - 파이썬 3.9.13
  
 - 추가 라이브러리 요구사항
   - opencv
   
     `pip install opencv-python`
-    
   - argparse
   
     `pip install argparse`
