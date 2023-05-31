@@ -15,8 +15,9 @@
 # Analysis/Visualization
 
 # Installation
- 모든 코드는 cmd창에서 입력하였음.
+ 모든 구동은 cmd창에서 진행함.
  구동 환경
+  os:window 11
   파이썬 3.9.13
  
  추가 라이브러리 요구사항
