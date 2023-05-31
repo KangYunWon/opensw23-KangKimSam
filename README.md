@@ -32,13 +32,23 @@
   - argparse
   
     `pip install argparse`
- 
-- repository 복사(cmd의 default path에서 실행함) 
-
-    `git clone https://github.com/smahesh29/Gender-and-Age-Detection.git`
     
-- repository를 복사하면 cmd의 default path 밑에 Gender-and-Age-Detection 파일이 생성됨.
-  이후 해당 파일로 위치를 이동해주면 됨.
+- 구동 방법    
+ 
+  1. repository 복사(cmd의 default path에서 실행함) 
+
+      `git clone https://github.com/smahesh29/Gender-and-Age-Detection.git`
+    
+  2. repository를 복사하면 cmd의 default path 밑에 Gender-and-Age-Detection 디렉터리가 생성됨.
   
+  3. 생성된 Gender-and-Age-Detection 디렉터리로 이동 후 detect.py파일 실행
   
+    + 사진 파일을 이용해 성별, 나이 분석 시
+
+      `python detect.py --image <image_name>`
+
+    + 웹캠을 이용해 성별, 나이 분석 시
+
+      `python detect.py`
+    
 # Presentation
