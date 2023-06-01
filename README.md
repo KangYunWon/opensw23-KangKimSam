@@ -27,7 +27,7 @@
     - python detect.py --image <파일명> 의 <파일명>에 jpg 파일 입력 시 일정 시간 후에 output result가 자동으로 팝업됨(output result는 Result 항목의 그것과 동일하게 나옴.)
     - python detect.py로 실행시 일정 시간 후 웹캠이 구동되어 카메라 현황이 팝업됨. 카메라 현황에 실시간으로 성별과 나이가 출력되고 콘솔창에 반영 내용이 실시간으로 출력됨
 # Results
-  |input data|input|ouput|
+  |input data|input|output|
   |:---|:---:|:---:|
   |sample data|<img width="362" alt="sample1" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/f9516e0e-e243-4891-a9e8-10e6ead64501">|<img width="362" alt="sample1" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127183027/58feb0e0-b17d-44fe-9e7a-484f48e9e581">|
   |male(20)|<img width="312" alt="jonghyuck1" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/d66de645-1bea-4fb9-9acf-671a72971934">|<img width="312" alt="jonghyuck1" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127183027/a451eda9-9313-4f7e-a148-48d22b5ec638">|
