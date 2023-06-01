@@ -11,7 +11,7 @@
 # Topic Introduction
   - 원본 프로젝트 레포지토리 주소 : https://github.com/smahesh29/Gender-and-Age-Detection.git
 
-  - 주제 : 성별 및 연령 감지
+  - 주제 : 이미지 및 웹캠 영상으로 부터 성별 및 연령 감지
 
   - 내용 :
   
