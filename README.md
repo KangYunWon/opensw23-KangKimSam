@@ -13,6 +13,10 @@
 
   - 주제 : 성별 및 연령 감지
   
+  딥러닝을 이용한 얼굴 인식 및 이를 이용한 성별, 나이 추정 프로그램이다.
+  
+  모델에 대한 훈련은 Tal Hassner and Gil Levi에 의해졌다.
+  
   성별은 male 혹은 female 둘중 하나로 감지한다.
   
   연령은 (0 – 2), (4 – 6), (8 – 12), (15 – 20), (25 – 32), (38 – 43), (48 – 53), (60 – 100) 8개의 구간 중 하나로 감지한다.
@@ -53,7 +57,9 @@
     + 사진 파일을 이용해 성별, 나이 분석 시
 
       `python detect.py --image <image_name>`
-
+      
+      +example
+        `python detect.py --image gir1.jpg`
     + 웹캠을 이용해 성별, 나이 분석 시
 
       `python detect.py`
