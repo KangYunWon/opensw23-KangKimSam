@@ -24,7 +24,9 @@
     - 성별은 male 혹은 female 둘 중 하나로 판단한다.
   
     - 연령은 (0 – 2), (4 – 6), (8 – 12), (15 – 20), (25 – 32), (38 – 43), (48 – 53), (60 – 100) 8개의 구간 중 하나로 판단한다.
-    - python detect.py --image <파일명> 의 <파일명>에 jpg 파일 입력 시 일정 시간 후에 output result가 자동으로 팝업됨(output result는 Result 항목의 그것과 동일하게 나옴.)
+    
+    - python detect.py --image <파일명> 의 <파일명>에 jpg혹은 png파일 이름 입력 시 일정 시간 후에 output result가 자동으로 팝업됨(output result는 Result 항목의 그것과 동일하게 나옴.)
+    
     - python detect.py로 실행시 일정 시간 후 웹캠이 구동되어 카메라 현황이 팝업됨. 카메라 현황에 실시간으로 성별과 나이가 출력되고 콘솔창에 반영 내용이 실시간으로 출력됨
 # Results
   |input data|input|output|
