@@ -9,17 +9,15 @@
   
   김민형 202211270 서포터
 # Topic Introduction
-  - 레포지토리 주소 : https://github.com/smahesh29/Gender-and-Age-Detection.git
+  - 원본 프로젝트 레포지토리 주소 : https://github.com/smahesh29/Gender-and-Age-Detection.git
 
   - 주제 : 성별 및 연령 감지
   
   딥러닝을 이용한 얼굴 인식 및 이를 이용한 성별, 나이 추정 프로그램이다.
   
-  pretrained 된 모델이다.
+  Tal Hassner과 Gil Levi가 pretrained한 모델을 사용하였다.
   
-  얼굴을 감지하지 못할 경우 콘솔창에 No face detected가 출력된다. 
-  
-  성별은 male 혹은 female 둘중 하나로 감지한다.
+  성별은 male 혹은 female 둘 중 하나로 감지한다.
   
   연령은 (0 – 2), (4 – 6), (8 – 12), (15 – 20), (25 – 32), (38 – 43), (48 – 53), (60 – 100) 8개의 구간 중 하나로 감지한다.
 # Results
@@ -32,7 +30,7 @@
 # Analysis/Visualization
 
 # Installation
-- 모든 구동은 cmd창에서 진행함.
+- 모든 구동은 cmd창에서 진행한다.
 
 - 구동 환경
   - os : window 10, window 11
@@ -56,7 +54,7 @@
   
   3. 생성된 Gender-and-Age-Detection 디렉터리로 이동 후 detect.py파일 실행
   
-    + 사진 파일을 이용해 성별, 나이 분석 시
+    - 사진 파일을 이용해 성별, 나이 분석 시
 
       `python detect.py --image <image_name>`
       
@@ -64,7 +62,7 @@
       
           python detect.py --image gir1.jpg
           
-    + 웹캠을 이용해 성별, 나이 분석 시
+    - 웹캠을 이용해 성별, 나이 분석 시
 
       `python detect.py`
     
