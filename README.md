@@ -40,6 +40,10 @@
 - 구동 환경
   - os : window 10, window 11
   - 파이썬 3.9.13
+  - lg gram 2021 ver.
+  - cpu: 11th Gen Intel(R) Core(TM) i7-1165G7
+  - RAM: 16.00GB
+  - GPU: intel IRIS xe
  
 - 추가 라이브러리 요구사항
   - opencv
