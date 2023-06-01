@@ -15,7 +15,7 @@
   
   딥러닝을 이용한 얼굴 인식 및 이를 이용한 성별, 나이 추정 프로그램이다.
   
-  모델에 대한 훈련은 Tal Hassner and Gil Levi에 의해졌다.
+  pretrained 된 모델이다.
   
   성별은 male 혹은 female 둘중 하나로 감지한다.
   
