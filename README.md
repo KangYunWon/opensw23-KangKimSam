@@ -64,7 +64,7 @@
       
         example
       
-          `python detect.py --image gir1.jpg`
+          `python detect.py --image girl1.jpg`
           
       - 웹캠을 이용해 성별, 나이 분석 시
 
