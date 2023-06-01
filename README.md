@@ -29,6 +29,7 @@
   |:---|:---:|:---:|
   |sample data|<img width="362" alt="sample1" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/f9516e0e-e243-4891-a9e8-10e6ead64501">|<img width="362" alt="sample1" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127183027/58feb0e0-b17d-44fe-9e7a-484f48e9e581">|
   |male(20)|<img width="312" alt="jonghyuck1" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/d66de645-1bea-4fb9-9acf-671a72971934">|<img width="312" alt="jonghyuck1" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127183027/a451eda9-9313-4f7e-a148-48d22b5ec638">|
+  |female(22)|webcam|<img width="312" alt="webcam1" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/178094ee-74bb-4dea-b14c-e8cf86604fd8">|
 
 
 # Analysis/Visualization
