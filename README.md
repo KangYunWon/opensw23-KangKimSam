@@ -15,11 +15,13 @@
   
   딥러닝을 이용한 얼굴 인식 및 이를 이용한 성별, 나이 추정 프로그램이다.
   
-  Tal Hassner과 Gil Levi가 pretrained한 모델을 사용하였다.
+  Tal Hassner과 Gil Levi가 pretrained한 모델을 사용해 성별, 나이를 추정한다.
   
-  성별은 male 혹은 female 둘 중 하나로 감지한다.
+  입력받은 이미지 혹은 웹캠의 데이터에서 사람의 얼굴을 감지해 성별, 나이를 추정한다.
   
-  연령은 (0 – 2), (4 – 6), (8 – 12), (15 – 20), (25 – 32), (38 – 43), (48 – 53), (60 – 100) 8개의 구간 중 하나로 감지한다.
+  성별은 male 혹은 female 둘 중 하나로 판단한다.
+  
+  연령은 (0 – 2), (4 – 6), (8 – 12), (15 – 20), (25 – 32), (38 – 43), (48 – 53), (60 – 100) 8개의 구간 중 하나로 판단한다.
 # Results
   |data|input|ouput|
   |:---|:---:|:---:|
@@ -54,16 +56,16 @@
   
   3. 생성된 Gender-and-Age-Detection 디렉터리로 이동 후 detect.py파일 실행
   
-    - 사진 파일을 이용해 성별, 나이 분석 시
+      - 사진 파일을 이용해 성별, 나이 분석 시
 
-      `python detect.py --image <image_name>`
+        `python detect.py --image <image_name>`
       
-      example
+        example
       
-          python detect.py --image gir1.jpg
+          `python detect.py --image gir1.jpg`
           
-    - 웹캠을 이용해 성별, 나이 분석 시
+      - 웹캠을 이용해 성별, 나이 분석 시
 
-      `python detect.py`
+        `python detect.py`
     
 # Presentation
