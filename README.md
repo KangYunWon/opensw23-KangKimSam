@@ -53,7 +53,7 @@
  
   1. repository 복사(cmd의 default path에서 실행함) 
 
-      'git clone https://github.com/KangYunWon/opensw23-KangKimSam.git'
+      `git clone https://github.com/KangYunWon/opensw23-KangKimSam.git`
     
   2. repository를 복사하면 cmd의 default path 밑에 opensw23-KangKimSam 디렉터리가 생성됨.
   
