@@ -58,8 +58,10 @@
 
       `python detect.py --image <image_name>`
       
-      +example
-        `python detect.py --image gir1.jpg`
+      example
+      
+          python detect.py --image gir1.jpg
+          
     + 웹캠을 이용해 성별, 나이 분석 시
 
       `python detect.py`
