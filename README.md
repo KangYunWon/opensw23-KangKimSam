@@ -54,9 +54,9 @@
 
       `git clone https://github.com/smahesh29/Gender-and-Age-Detection.git`
     
-  2. repository를 복사하면 cmd의 default path 밑에 Gender-and-Age-Detection 디렉터리가 생성됨.
+  2. repository를 복사하면 cmd의 default path 밑에 opensw23-KangKimSam 디렉터리가 생성됨.
   
-  3. 생성된 Gender-and-Age-Detection 디렉터리로 이동 후 detect.py파일 실행
+  3. 생성된 opensw23-KangKimSam 디렉터리로 이동 후 detect.py파일 실행
   
       - 사진 파일을 이용해 성별, 나이 분석 시
 
