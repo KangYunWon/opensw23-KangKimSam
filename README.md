@@ -24,8 +24,12 @@
     - 성별은 male 혹은 female 둘 중 하나로 판단한다.
   
     - 연령은 (0 – 2), (4 – 6), (8 – 12), (15 – 20), (25 – 32), (38 – 43), (48 – 53), (60 – 100) 8개의 구간 중 하나로 판단한다.
+    
+    - python detect.py --image <파일명> 의 <파일명>에 jpg혹은 png형식의 사진 파일 이름 입력 시 일정 시간 후 입력한 사진에서 사람 얼굴을 인식해 성별, 나이를 추정한 내용을 사진에 추가해서 자동으로 팝업한다.(Results 항목의 output처럼 나온다.)
+    
+    - python detect.py로 실행 시 일정 시간 후 웹캠이 구동되어 웹캠에서 촬영된 영상에서 사람 얼굴을 인식해 성별, 나이를 추정한 내용을 영상에 추가해서 팝업한다. 카메라 현황에 실시간으로 성별과 나이가 출력되고 콘솔창에 추정 내용이 실시간으로 출력된다.
 # Results
-  |data|input|ouput|
+  |input data|input|output|
   |:---|:---:|:---:|
   |sample data|<img width="362" alt="sample1" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/f9516e0e-e243-4891-a9e8-10e6ead64501">|<img width="362" alt="sample1" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127183027/58feb0e0-b17d-44fe-9e7a-484f48e9e581">|
   |male(20) original |<img width="312" alt="jonghyuck1" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/d66de645-1bea-4fb9-9acf-671a72971934">|<img width="312" alt="jonghyuck1" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127183027/a451eda9-9313-4f7e-a148-48d22b5ec638">|
@@ -38,6 +42,7 @@
 |  배경-파랑192#0000c0     |       ![out0000c0](https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/393659fb-ab44-4942-9d20-387aba08ed8c)  |   ![out0000c0](https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/b99981be-165d-48f9-92bd-97939d652a6f)     |
 |  배경-하늘224#00e0e0      |   ![out00e0e0](https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/9fbcbb4d-5198-4b2b-a1f1-fc06b2a84cee)       |     ![Screenshot 31](https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/40042c7f-a3eb-4a19-8a09-6d4b6c89e94e)   |
 |   배경-노랑256#ffff00    |      ![outffff00](https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/2d289e10-fe78-4582-8b6f-04356db994ab)    |   ![Screenshot 13](https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/c15343fa-a41e-46cc-a428-a1d1ce1b4d77)     |
+
 
 
 # Analysis/Visualization
@@ -62,6 +67,10 @@
 - 구동 환경
   - os : window 10, window 11
   - 파이썬 3.9.13
+  - lg gram 2021 ver.
+  - cpu: 11th Gen Intel(R) Core(TM) i7-1165G7
+  - RAM: 16.00GB
+  - GPU: intel IRIS xe
  
 - 추가 라이브러리 요구사항
   - opencv
@@ -75,11 +84,11 @@
  
   1. repository 복사(cmd의 default path에서 실행함) 
 
-      `git clone https://github.com/smahesh29/Gender-and-Age-Detection.git`
+      `git clone https://github.com/KangYunWon/opensw23-KangKimSam.git`
     
-  2. repository를 복사하면 cmd의 default path 밑에 Gender-and-Age-Detection 디렉터리가 생성됨.
+  2. repository를 복사하면 cmd의 default path 밑에 opensw23-KangKimSam 디렉터리가 생성됨.
   
-  3. 생성된 Gender-and-Age-Detection 디렉터리로 이동 후 detect.py파일 실행
+  3. 생성된 opensw23-KangKimSam 디렉터리로 이동 후 detect.py파일 실행
   
       - 사진 파일을 이용해 성별, 나이 분석 시
 
