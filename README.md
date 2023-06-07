@@ -45,7 +45,7 @@
 
 
 
-# Analysis/Visualization
+# Analysis
 
 | 강도＼색|	흰색-회색|	빨강|	초록|	파랑|	하늘-청록|	분홍-보라	|노랑| |  |
 |---|---|---|---|---|---|---|---|---|:---:|
@@ -56,6 +56,16 @@
 |192|	m 38-43	|m 4-6	|m 8-12	|m 4-6|	m 38-43	|f 4-6	|m 38-43|   | 원본|
 |224|	m 38-43	|m 4-6	|m 8-12	|m 4-6|	m 38-43	|f 4-6	|m 8-12|  |m 15-20 |
 |256|	-|	f 4-6	|m 8-12	|m 4-6	|m 8-12|	f 4-6	|m 8-12|  |"-"로 표기  |
+
+# Visualization
+
+| | | | |
+|---|---|---|---|
+|![blue](https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/39338def-4413-42a8-a216-d3c2b47f9d1b) |![green](https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/153132c9-7f15-4ad8-b6ef-40aeb79498f2) | ![pink](https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/424e3977-b22b-4baa-bc5e-28446dd61588)| ![red](https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/6434a63d-91ec-445e-8fc8-db98dacf9a95)|
+|![sky](https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/7706583d-ed7c-4481-8837-7cb9e392f90a) | ![white](https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/a717d679-12ae-46b9-80d3-43d6ceb3d6dd)| |![yellow](https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/ed776307-0ad9-40cd-a311-618e53ab44d6)
+
+
+
 
 
 
