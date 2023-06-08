@@ -31,6 +31,8 @@
 # Results
 <img width="497" alt="outff00ff" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127183027/4d5c8088-182a-4b98-adb8-af178ff4f900">
 
+![outff00ff](https://github.com/KangYunWon/opensw23-KangKimSam/assets/127183027/c9039770-8c9f-4768-a291-cfbd57fee730)
+
 # Analysis
 
 | 강도＼색|	흰색-회색|	빨강|	초록|	파랑|	하늘-청록|	분홍-보라	|노랑| |  |
