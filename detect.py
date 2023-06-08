@@ -73,11 +73,14 @@ while cv2.waitKey(1)<0 :
         agePreds=ageNet.forward()
         age=ageList[agePreds[0].argmax()]
         print(f'Age: {age[1:-1]} years')
-
-        cv2.putText(resultImg, f'{gender}, {age}', (faceBox[0], faceBox[1]-10), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0,255,255), 2, cv2.LINE_AA)
-
         height, width = resultImg.shape[:2] #이미의 크기 가져오기
         ratio = width / height #가로세로 비율을 유지하기 위한 비율 계산
+        textsize = width / 600 #사진의 크기에 따라 글씨가 작게 출력되는 경우가 있어 글씨크기의 비율을 고정함
+        textthick= int(textsize / 0.5)
+        if (gender == 'Male'):#시각적 효과를 높이기 위해 성별을 색깔로도 구분함
+            cv2.putText(resultImg, f'{gender}, {age}', (faceBox[0], faceBox[1]-10), cv2.FONT_HERSHEY_SIMPLEX, textsize, (255,0,0), textthick, cv2.LINE_AA)
+        else:#if (gender == 'Female')
+            cv2.putText(resultImg, f'{gender}, {age}', (faceBox[0], faceBox[1]-10), cv2.FONT_HERSHEY_SIMPLEX, textsize, (0,0,255), textthick, cv2.LINE_AA)
 
         root = tk.Tk()
 
