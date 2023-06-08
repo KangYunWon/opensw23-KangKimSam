@@ -32,11 +32,52 @@
   |input data|input|output|
   |:---|:---:|:---:|
   |sample data|<img width="362" alt="sample1" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/f9516e0e-e243-4891-a9e8-10e6ead64501">|<img width="362" alt="sample1" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127183027/58feb0e0-b17d-44fe-9e7a-484f48e9e581">|
-  |male(20)|<img width="312" alt="jonghyuck1" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/d66de645-1bea-4fb9-9acf-671a72971934">|<img width="312" alt="jonghyuck1" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127183027/a451eda9-9313-4f7e-a148-48d22b5ec638">|
-  |female(22)|webcam|<img width="312" alt="webcam1" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/178094ee-74bb-4dea-b14c-e8cf86604fd8">|
+  |male(20) original |<img width="312" alt="jonghyuck1" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/d66de645-1bea-4fb9-9acf-671a72971934">|<img width="312" alt="jonghyuck1" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127183027/a451eda9-9313-4f7e-a148-48d22b5ec638">|
+|       |          |        |
+|    배경-검정   |      ![outblack](https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/98dd011c-30f5-457c-90cb-7ab044022071)     |     ![Screenshot 2023-06-07 at 20 22 30](https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/49b17f2b-9516-4614-a727-45a1dc54077e)    |
+| 배경-흰색32#202020  |       ![out202020](https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/8e6b957b-87bb-44eb-8a19-606dfd23ee15)  |     ![Screenshot 26](https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/26ec42b4-ac12-42a0-893d-c105477b785a)   |
+| 배경-빨강64#400000       |   ![out400000](https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/9bf0f99b-dd30-4648-ba74-99e33629a003)        |      ![out400000](https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/e4e1a0be-3c53-4864-bb45-c806cecd584d)  |
+|   배경-초록128#008000    |       ![out008000](https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/f3d03f2d-b06f-4117-97ee-decc366eedfe)   |   ![Screenshot 24](https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/6c3ff0c5-a516-43b5-bc84-5992ed32afb5)     |
+|   배경-파랑128#000080    |  ![out000080](https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/79c88caf-9d9c-4d27-95d2-047a2eaed4b6)        |   ![Screenshot 23](https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/5305cc7e-5541-413d-a5f0-093aaac136cd)  |
+|  배경-파랑192#0000c0     |       ![out0000c0](https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/393659fb-ab44-4942-9d20-387aba08ed8c)  |   ![out0000c0](https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/b99981be-165d-48f9-92bd-97939d652a6f)     |
+|  배경-하늘224#00e0e0      |   ![out00e0e0](https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/9fbcbb4d-5198-4b2b-a1f1-fc06b2a84cee)       |     ![Screenshot 31](https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/40042c7f-a3eb-4a19-8a09-6d4b6c89e94e)   |
+|   배경-노랑256#ffff00    |      ![outffff00](https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/2d289e10-fe78-4582-8b6f-04356db994ab)    |   ![Screenshot 13](https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/c15343fa-a41e-46cc-a428-a1d1ce1b4d77)     |
 
 
-# Analysis/Visualization
+
+# Analysis
+
+| 강도＼색|	흰색-회색|	빨강|	초록|	파랑|	하늘-청록|	분홍-보라	|노랑| |  |
+|---|---|---|---|---|---|---|---|---|:---:|
+|0~255 |xxxxxx|	xx0000|	00xx00	|0000xx|	00xxxx|	xx00xx	|xxxx00| | 000000 |
+|32 |	m 38-43	|-|	m 38-43|	-|	-	|m 8-12	|-|    | 검정|
+|64	|m 38-43	|-|	m 38-43	|m 38-43|	m 38-43	|m 4-6 |	-|  | - |
+|128|	m 38-43|	m 4-6|	m 8-12|	m 38-44|	m 38-43|	f 4-6	|m 38-43| | |
+|192|	m 38-43	|m 4-6	|m 8-12	|m 4-6|	m 38-43	|f 4-6	|m 38-43|   | 원본|
+|224|	m 38-43	|m 4-6	|m 8-12	|m 4-6|	m 38-43	|f 4-6	|m 8-12|  |m 15-20 |
+|256|	-|	f 4-6	|m 8-12	|m 4-6	|m 8-12|	f 4-6	|m 8-12|  |"-"로 표기  |
+
+data 개수 : 색 변경 43개 + 원본 1개 = 총 44개
+
+에시 ) 초록 64 = "#004000"
+
+# Visualization
+
+| | | | |
+|---|---|---|---|
+|<img width="129" alt="blue" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/603cf50b-8d5e-46fb-8d58-0f4c6e9c6a50"> | <img width="128" alt="green" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/9dc24a5a-6bfc-4283-9a44-21f180976b43"> | <img width="128" alt="pink" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/d4080d07-1eeb-4662-9c02-036fb778e343"> | <img width="129" alt="red" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/9420b484-ddaa-465d-9148-d6dad8f2727f"> |
+| <img width="129" alt="sky" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/b03ed8c2-7793-4d9c-b476-304bbdb29446"> | <img width="129" alt="white" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/4c9891de-7102-48c0-a9aa-dbab1bda6c78">  | <img width="126" alt="yellow" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/604859af-ff29-4115-961d-f088b9b181e5"> |  |
+
+
+
+
+
+
+
+
+
+
+
 
 # Installation
 - 모든 구동은 cmd창에서 진행한다.

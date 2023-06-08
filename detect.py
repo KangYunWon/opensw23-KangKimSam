@@ -3,6 +3,7 @@
 import cv2
 import math
 import argparse
+import tkinter as tk
 
 def highlightFace(net, frame, conf_threshold=0.7):
     frameOpencvDnn=frame.copy()
@@ -74,4 +75,22 @@ while cv2.waitKey(1)<0 :
         print(f'Age: {age[1:-1]} years')
 
         cv2.putText(resultImg, f'{gender}, {age}', (faceBox[0], faceBox[1]-10), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0,255,255), 2, cv2.LINE_AA)
-        cv2.imshow("Detecting age and gender", resultImg)
+
+        height, width = resultImg.shape[:2] #이미의 크기 가져오기
+        ratio = width / height #가로세로 비율을 유지하기 위한 비율 계산
+
+        root = tk.Tk()
+
+        monitor_height = root.winfo_screenheight()
+        monitor_width = root.winfo_screenwidth()
+
+        if width > height:
+            new_width = int(monitor_width * 2/3) #가로 크기를 새로 지정
+            new_height = int(new_width / ratio) #가로세로 비율에 맞춰 세로 크기를 새로 지정
+        else:
+            new_height = int(monitor_height * 2/3)
+            new_width = int(new_height * ratio)
+
+        resized_img = cv2.resize(resultImg, (new_width, new_height))
+
+        cv2.imshow("Resized Image", resized_img)
