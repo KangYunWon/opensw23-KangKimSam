@@ -149,3 +149,4 @@
         `python detect.py`
     
 # Presentation
+https://www.youtube.com/watch?v=L_osJHiKF6Y&ab_channel=%EA%B9%80%EC%A2%85%ED%98%81
