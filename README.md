@@ -31,8 +31,8 @@
 # Results
   |input data|input|output|
   |:---|:---:|:---:|
-  |male(20) original |<img width="312" alt="jonghyuck1" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/d66de645-1bea-4fb9-9acf-671a72971934">|<img width="312" alt="jonghyuck1" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127183027/a451eda9-9313-4f7e-a148-48d22b5ec638">|
-  |분홍배경-outff00ff|<img width="312" alt="outff00ff" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127183027/c9039770-8c9f-4768-a291-cfbd57fee730">|<img width="312" alt="outff00ff" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127183027/4d5c8088-182a-4b98-adb8-af178ff4f900">|
+  |male(20)-원본 이미지|<img width="312" alt="jonghyuck1" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/d66de645-1bea-4fb9-9acf-671a72971934">|<img width="312" alt="jonghyuck1" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127183027/a451eda9-9313-4f7e-a148-48d22b5ec638">|
+  |male(20)-분홍색 배경|<img width="312" alt="outff00ff" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127183027/c9039770-8c9f-4768-a291-cfbd57fee730">|<img width="312" alt="outff00ff" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127183027/4d5c8088-182a-4b98-adb8-af178ff4f900">|
   |female(22)-마스크 착용|<img width="312" alt="KSH4" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/708faf3f-ae1c-454f-a34c-ef0ed925218b">|<img width="312" alt="KSH4output" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/c685f8d7-fac5-4ba2-bf65-09aacf2cc2c7">|
   
 |||
@@ -46,7 +46,7 @@
 
 ![graph1](https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/1b663223-e92a-4216-a477-7a7f028139f8)
 
-(data 개수: 6개 KSH1.jpg~KSH6.jpg)
+data 개수: 6개 (KSH1.jpg~KSH6.jpg)
 
 얼굴의 일부가 가려질수록 오차율은 커졌고 가장 많이 가려진 KSH4.jpg(마스크 착용)의 경우 얼굴 자체를 감지하지 못하는 결과가 나타난 것으로 보아 얼굴이 더 많이 가려질수록 얼굴을 감지하는 능력과 측정 정확도가 떨어진다고 판단된다. 
 
@@ -59,7 +59,7 @@
 |<img width="250" alt="graph1" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/ad429da4-4539-4fc0-8fc5-951300a0cc74">|<img width="250" alt="graph2" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/9ceb1d2b-7f47-4b35-bcfe-c05ff3b29f4b">|<img width="250" alt="graph3" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/60549bba-04ce-4aba-9fff-9aced5355ec2">|
 |<img width="250" alt="graph4" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/ce036858-6b0e-4d11-a671-504df06837c2">|<img width="250" alt="graph5" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/4e9ba784-ee84-44aa-af33-6c9a050c99ca">|<img width="250" alt="graph6" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/2eb1dd14-fd61-4734-90f0-90ef336e35f5">|
 
-(data 개수: 86개 KJH00.jpg ~ KJH85.jpg)
+data 개수: 86개 (KJH00.jpg ~ KJH85.jpg)
 
 좌우각도, 상하각도 모두에서 정면각도에 가까울수록 실제 인물의 성별과 나이인 Male, 22years와 유사한 결과가 나왔다.
 
@@ -92,7 +92,7 @@
 
 예시) 초록 64 = "#004000"
 
-(data 개수: 44개 out000020.jpg ~ outffffff.jpg)
+data 개수: 44개 (out000020.jpg ~ outffffff.jpg)
 
 채도가 낮을수록 나이를 많게 측정하는 경향을 보였다. 
 
