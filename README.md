@@ -29,8 +29,7 @@
     
     - python detect.py로 실행 시 일정 시간 후 웹캠이 구동되어 웹캠에서 촬영된 영상에서 사람 얼굴을 인식해 성별, 나이를 추정한 내용을 영상에 추가해서 팝업한다. 카메라 현황에 실시간으로 성별과 나이가 출력되고 콘솔창에 추정 내용이 실시간으로 출력된다.
 # Results
-![outff00ff](https://github.com/KangYunWon/opensw23-KangKimSam/assets/127183027/45d735d0-0a04-47dd-8ac5-0ac028b3febe)
-
+<img width="497" alt="outff00ff" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127183027/4d5c8088-182a-4b98-adb8-af178ff4f900">
 
 # Analysis
 
