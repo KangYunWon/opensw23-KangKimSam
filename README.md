@@ -43,7 +43,7 @@
 
 # Analysis & Visualization
 
-- 1
+- Analysis & Visualization 1
 
 ![graph1](https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/1b663223-e92a-4216-a477-7a7f028139f8)
 
@@ -53,12 +53,12 @@
 
 
 
-- 2
+- Analysis & Visualization 2
 
 ||||
 |---|---|---|
-|<img width="200" alt="graph1" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/ad429da4-4539-4fc0-8fc5-951300a0cc74">|<img width="200" alt="graph2" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/9ceb1d2b-7f47-4b35-bcfe-c05ff3b29f4b">|<img width="200" alt="graph3" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/60549bba-04ce-4aba-9fff-9aced5355ec2">|
-|<img width="200" alt="graph4" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/ce036858-6b0e-4d11-a671-504df06837c2">|<img width="200" alt="graph5" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/4e9ba784-ee84-44aa-af33-6c9a050c99ca">|<img width="200" alt="graph6" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/2eb1dd14-fd61-4734-90f0-90ef336e35f5">|
+|<img width="250" alt="graph1" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/ad429da4-4539-4fc0-8fc5-951300a0cc74">|<img width="250" alt="graph2" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/9ceb1d2b-7f47-4b35-bcfe-c05ff3b29f4b">|<img width="250" alt="graph3" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/60549bba-04ce-4aba-9fff-9aced5355ec2">|
+|<img width="250" alt="graph4" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/ce036858-6b0e-4d11-a671-504df06837c2">|<img width="250" alt="graph5" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/4e9ba784-ee84-44aa-af33-6c9a050c99ca">|<img width="250" alt="graph6" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/2eb1dd14-fd61-4734-90f0-90ef336e35f5">|
 
 (data 개수: 86개)
 
@@ -74,12 +74,12 @@
 
 
 
-- 3
+- Analysis & Visualization3
 
 | | | | |
 |---|---|---|---|
-|<img width="129" alt="blue" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/603cf50b-8d5e-46fb-8d58-0f4c6e9c6a50"> | <img width="128" alt="green" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/9dc24a5a-6bfc-4283-9a44-21f180976b43"> | <img width="128" alt="pink" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/d4080d07-1eeb-4662-9c02-036fb778e343"> | <img width="129" alt="red" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/9420b484-ddaa-465d-9148-d6dad8f2727f"> |
-| <img width="129" alt="sky" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/b03ed8c2-7793-4d9c-b476-304bbdb29446"> | <img width="129" alt="white" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/4c9891de-7102-48c0-a9aa-dbab1bda6c78">  | <img width="126" alt="yellow" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/604859af-ff29-4115-961d-f088b9b181e5"> |  |
+|<img width="200" alt="blue" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/603cf50b-8d5e-46fb-8d58-0f4c6e9c6a50"> | <img width="200" alt="green" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/9dc24a5a-6bfc-4283-9a44-21f180976b43"> | <img width="200" alt="pink" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/d4080d07-1eeb-4662-9c02-036fb778e343"> | <img width="200" alt="red" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/9420b484-ddaa-465d-9148-d6dad8f2727f"> |
+| <img width="200" alt="sky" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/b03ed8c2-7793-4d9c-b476-304bbdb29446"> | <img width="200" alt="white" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/4c9891de-7102-48c0-a9aa-dbab1bda6c78">  | <img width="200" alt="yellow" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/129364199/604859af-ff29-4115-961d-f088b9b181e5"> |  |
 
 | 강도＼색|	흰색-회색|	빨강|	초록|	파랑|	하늘-청록|	분홍-보라	|노랑| |  |
 |---|---|---|---|---|---|---|---|---|:---:|
