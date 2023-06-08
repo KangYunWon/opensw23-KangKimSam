@@ -1,3 +1,4 @@
+import matplotlib.patches as mpatches
 import matplotlib.pyplot as plt
 import csv
 
@@ -25,14 +26,22 @@ def create_graph(data, x_values, title):
         parts = item.split()
         gender.append(parts[0])
         values.append(int(parts[1]))
+        
 
     colors = ['blue' if g == 'm' else 'red' for g in gender]
-    plt.bar(x_values, values, color=colors)
+    male_patch = mpatches.Patch(color='blue', label='Male')
+    female_patch = mpatches.Patch(color='red', label='Female')
 
+    plt.bar(x_values, values, color=colors)
+    
     plt.xlabel('Color Intensity')
     plt.ylabel('Age')
     plt.title(title)
 
+
+    # Add legends
+    plt.legend(handles=[male_patch, female_patch])
+    
     plt.show()
 
 
