@@ -38,7 +38,6 @@
 |||
 |:---|:---:|
 |webcam|![webcam 2023-06-08 16-57-08](https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/87fa05cf-5cfa-4258-bee0-a7636ad3f9ee)
-|
  
 
 # Analysis & Visualization
