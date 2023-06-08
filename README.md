@@ -90,7 +90,7 @@ data 개수: 86개 (KJH00.jpg ~ KJH85.jpg)
 |224|	male 38-43	|male 4-6	|male 8-12	|male 4-6|	male 38-43	|female 4-6	|male 8-12|  |male 15-20 |
 |256|	-|	female 4-6	|male 8-12	|male 4-6	|male 8-12|	female 4-6	|male 8-12|  |"-"로 표기  |
 
-예시) 초록 64 = "#004000"
+예시) 초록 64는 이미지의 배경색을 "#004000"로 설정했음을 의미함.
 
 data 개수: 44개 (out000020.jpg ~ outffffff.jpg)
 
