@@ -103,6 +103,15 @@
 
 
 
+# Discussion & Thoughts
+- 더 나은 output을 위한 코드 수정
+  - 팝업창의 크기 조정
+  - 출력되는 이미지의 글자 크기 조정
+  - gender 분류를 글씨의 색깔을 이용하여 구분하는 코드 추가하여 가시성을 높임(Male-blue, Female-red)
+
+- 최종 결론
+  - Analysis의 결과를 바탕으로 시스템의 gender and age detection 기준을 추측해 정제된 data를 사용한다면 얼굴 인식 및 성별, 나이 감지의 정확도를 높일 수 있을 것이다.
+
 # Installation
 - 모든 구동은 cmd창에서 진행한다.
 
