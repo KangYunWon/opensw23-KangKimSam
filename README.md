@@ -43,38 +43,38 @@
 
 # Analysis & Visualization
 
-- Analysis & Visualization 1
+- Analysis & Visualization 1 (얼굴이 가려진 정도에 따른 성별, 나이 측정 결과 분석)
 
 ![graph1](https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/1b663223-e92a-4216-a477-7a7f028139f8)
 
-(data 개수: 6개)
+(data 개수: 6개 KSH1.jpg~KSH6.jpg)
 
-얼굴의 일부가 가려질 수록 오차율은 커졌고 가장 많이 가려진 KSH4.jpg(마스크 착용)의 경우 얼굴 자체를 감지하지 못하는 결과가 나타난 것으로 보아 얼굴의 일부가 가려질 수록 얼굴을 감지하는 능력이 떨어진다고 판단됨. 
+얼굴의 일부가 가려질수록 오차율은 커졌고 가장 많이 가려진 KSH4.jpg(마스크 착용)의 경우 얼굴 자체를 감지하지 못하는 결과가 나타난 것으로 보아 얼굴이 더 많이 가려질수록 얼굴을 감지하는 능력과 측정 정확도가 떨어진다고 판단된다. 
 
 
 
-- Analysis & Visualization 2
+- Analysis & Visualization 2 (얼굴의 각도, 헤어 스타일에 따른 성별, 나이 측정 결과 분석)
 
 ||||
 |---|---|---|
 |<img width="250" alt="graph1" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/ad429da4-4539-4fc0-8fc5-951300a0cc74">|<img width="250" alt="graph2" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/9ceb1d2b-7f47-4b35-bcfe-c05ff3b29f4b">|<img width="250" alt="graph3" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/60549bba-04ce-4aba-9fff-9aced5355ec2">|
 |<img width="250" alt="graph4" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/ce036858-6b0e-4d11-a671-504df06837c2">|<img width="250" alt="graph5" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/4e9ba784-ee84-44aa-af33-6c9a050c99ca">|<img width="250" alt="graph6" src="https://github.com/KangYunWon/opensw23-KangKimSam/assets/127182199/2eb1dd14-fd61-4734-90f0-90ef336e35f5">|
 
-(data 개수: 86개)
+(data 개수: 86개 KJH00.jpg ~ KJH85.jpg)
 
-가설대로 좌우각도, 상하각도 모두에서 정면각도에 가까울 수록 실제 인물의 성별과 나이인 Male, 22years와 유사한 결과가 나옴.
+좌우각도, 상하각도 모두에서 정면각도에 가까울수록 실제 인물의 성별과 나이인 Male, 22years와 유사한 결과가 나왔다.
 
-상대적으로 좌우각도에 비해 상하각도에 따라서 성별과 나이 분석의 정확도가 많이 떨어짐을 알 수 있음.
+상대적으로 좌우각도가 변할 때에 비해 상하각도가 변하는 것이 성별과 나이 측정의 정확도가 많이 떨어짐을 알 수 있었다.
 
-눈을 감는 것과 뜨는 것은 성별과 나이 분석에 큰 영향을 주지 않는다는 것을 알 수 있음.
+눈을 감는 것과 뜨는 것은 성별과 나이 측정에 큰 영향을 주지 않는다는 것을 알 수 있었다.
 
-머리를 내려 얼굴이 가려질 때 좌우각도에 따라 성별과 나이 분석 결과의 정확도가 굉장히 떨어지는 것을 확인할 수 있었음.
+머리를 내려 얼굴이 가려질 때 좌우각도에 따른 성별과 나이 측정 결과의 정확도가 굉장히 떨어지는 것을 확인할 수 있었다.
 
-좌우각도가 변할 때  성별에 대한 분석 정확도가 많이 떨어짐을 알 수 있음.
+좌우각도가 변할 때 성별에 대한 측정 정확도가 많이 떨어짐을 알 수 있었다.
 
 
 
-- Analysis & Visualization3
+- Analysis & Visualization3 (이미지의 배경색에 따른 성별, 나이 측정 결과 분석)
 
 | | | | |
 |---|---|---|---|
@@ -93,20 +93,20 @@
 
 예시) 초록 64 = "#004000"
 
-(data 개수: 44개)
+(data 개수: 44개 out000020.jpg ~ outffffff.jpg)
 
-채도가 낮을수록 나이를 많게 측정하는 경향을 보임. 
+채도가 낮을수록 나이를 많게 측정하는 경향을 보였다. 
 
-배경색이 검정색에 가까워질수록 검정 채도가 강해서 나이를 정확히 측정하는 것을 관찰할 수 있음.
+배경색이 검정색에 가까워질수록 검정 채도가 강해서 나이를 정확히 측정하는 것을 관찰할 수 있었다.
 
-붉은 계통의 색에서 상대적으로 성별을 여성으로 판단할 가능성이 높다는 것을 관찰할 수 있었음
+배경색이 붉은 계통의 이미지일 때 상대적으로 성별을 여성으로 판단할 가능성이 높다는 것을 관찰할 수 있었다.
 
 
 
 # Discussion & Thoughts
 - 더 나은 output을 위한 코드 수정
-  - 팝업창의 크기 조정
-  - 출력되는 이미지의 글자 크기 조정
+  - 팝업창의 크기를 사용자의 디스플레이 크기에 맞춰 자동 조정
+  - 결과 팝업창에 출력되는 성별, 나이 측정 결과 글자의 크기와 두께를 이미지의 크기에 따라 자동 조정
   - gender 분류를 글씨의 색깔을 이용하여 구분하는 코드 추가하여 가시성을 높임(Male-blue, Female-red)
 
 - 최종 결론
@@ -133,7 +133,7 @@
     
 - 구동 방법    
  
-  1. repository 복사(cmd의 default path에서 실행함) 
+  1. repository 복사 (cmd의 default path에서 실행함) 
 
       `git clone https://github.com/KangYunWon/opensw23-KangKimSam.git`
     
@@ -141,7 +141,7 @@
   
   3. 생성된 opensw23-KangKimSam 디렉터리로 이동 후 detect.py파일 실행
   
-      - 사진 파일을 이용해 성별, 나이 분석 시(image파일은 detect.py랑 같은 디렉토리에 위치해야 함)
+      - 사진 파일을 이용해 성별, 나이 분석 시 (image파일은 detect.py랑 같은 디렉토리에 위치해야 함)
 
         `python detect.py --image <image_name>`
       
@@ -149,7 +149,7 @@
       
           `python detect.py --image girl1.jpg`
           
-        example2(이미지 파일 이름에 띄어쓰기가 들어가는 경우)
+        example2 (이미지 파일 이름에 띄어쓰기가 들어가는 경우)
         
           `python detect.py --image "girl 1.jpg"`
           
